@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
       <img src="img/logo.svg" width="294" height="72" alt="Logo Industrial Design">
     </a>
 
-    <form action="https://echo.htmlacademy.ru" class="search-form">
+    <form class="search-form" method="GET" action="https://echo.htmlacademy.ru">
       <label for="search">
         <span class="visually-hidden">Search</span>
       </label>
@@ -137,11 +137,11 @@
     <p class="subscription__offer">
       Get our freshest content delivered to your inbox
     </p>
-    <p>
+    <p class="subscription__responsible">
       For the latest stories, news, events, promotions and exclusive offers, sign up today. We know you get a lot of emails, but we promise... ours is the one you want.
     </p>
 
-    <form action="https://echo.htmlacademy.ru" class="subscription-form">
+    <form class="subscription-form" method="POST" action="https://echo.htmlacademy.ru">
       <label class="visually-hidden" for="email">Email</label>
       <input type="email" name="email" id="email" placeholder="Your email">
       <button class="btn btn--subscribe" type="submit">Subscribe</button>

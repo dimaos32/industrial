@@ -1,0 +1,39 @@
+.subscription {
+  margin-bottom: 105px;
+}
+
+.subscription__offer {
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.subscription__responsible {
+  margin: 0 auto 50px;
+  width: 840px;
+  text-align: center;
+}
+
+.subscription-form {
+  width: 360px;
+  margin: 0 auto;
+
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    font: inherit;
+    font-size: 24px;
+    color: inherit;
+    text-align: center;
+    background-color: transparent;
+    border: solid 3px $site;
+  }
+
+  input::placeholder {
+    font: inherit;
+    font-size: 24px;
+    color: inherit;
+  }
+}
