@@ -1,0 +1,158 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: $page--txt-alt;
+
+  &--xxl {
+    padding: 110px 60px 120px;
+    width: 1160px;
+    height: 690px;
+  }
+
+  &--xl {
+    padding: 65px 30px 225px;
+    width: 560px;
+    height: 520px;
+  }
+
+  &--l {
+    padding: 70px 30px 230px;
+    width: 360px;
+    height: 440px;
+    align-items: center;
+  }
+
+  &--xl-reverse {
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  &--l-reverse {
+    padding: 265px 30px 35px;
+  }
+
+  &--gina {
+    background-color: $gina--bg;
+  }
+
+  &--beoplay-a1 {
+    background-color: $beoplay-a1--bg;
+  }
+
+  &--leica-mp {
+    img {
+      width: 422px;
+      height: 280px;
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 0;
+    }
+
+    background-color: $beoplay-a1--bg;
+  }
+
+  &--leica-mp {
+    background-color: $leica-mp--bg;
+  }
+
+  &--molekule {
+    img {
+      height: 186px;
+      top: auto;
+      bottom: 0;
+    }
+
+    background-color: $molekule--bg;
+  }
+
+  &--p9-signature {
+    img {
+      height: 280px;
+    }
+
+    background-color: $p9-signature--bg;
+  }
+
+  &--dr-ii {
+    img {
+      width: 303px;
+      height: 195px;
+      top: auto;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+    }
+
+    background-color: $dr-ii--bg;
+  }
+}
+
+.product-card__title {
+  margin: 0;
+  z-index: 1;
+  font-family: $leaguespartan;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &--xxl {
+    font-size: 80px;
+    margin-bottom: 50px;
+  }
+
+  &--xl {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  &--l {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+}
+
+.product-card__image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &--xxl {
+    width: 1160px;
+    height: 690px;
+  }
+
+  &--xl {
+    width: 560px;
+    height: 520px;
+  }
+}
+
+.product-card__description {
+  margin: 0;
+  z-index: 1;
+
+  &--xxl {
+    width: 365px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  &--xl {
+    width: 445px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  &--l {
+    order: -1;
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+}
+
+.product-card__btn {
+  margin-top: auto;
+  z-index: 1;
+}

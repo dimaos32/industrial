@@ -1,0 +1,14 @@
+.catalog {
+  margin-bottom: 155px;
+}
+
+.catalog__line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

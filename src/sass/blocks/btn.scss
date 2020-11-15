@@ -1,0 +1,27 @@
+.btn {
+  display: block;
+  padding: 20px 18px 16px;
+  width: 360px;
+  font-family: $leaguespartan;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: $page--txt-alt;
+  background-color: transparent;
+  border: solid 3px $btn--border;
+
+  &--product-card-xxl {
+    width: 160px;
+    border-color: $btn--border-alt;
+  }
+
+  &--product-card-xl,
+  &--product-card-l {
+    padding: 14px 12px 10px;
+    width: 120px;
+    border-color: $btn--border-alt;
+  }
+}
