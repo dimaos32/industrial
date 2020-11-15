@@ -1,0 +1,27 @@
+.search-form {
+  position: relative;
+
+  label {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    top: 16px;
+    left: 0;
+    background: url("../img/search.svg") center no-repeat;
+  }
+
+  input {
+    display: block;
+    width: 175px;
+    padding: 12px;
+    padding-left: 32px;
+    padding-bottom: 8px;
+    font: inherit;
+    font-size: 24px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid $site;
+  }
+}
