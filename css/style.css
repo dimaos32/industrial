@@ -1,0 +1,334 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "HKGrotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/hkgrotesk-light.woff2") format("woff2"), url("../fonts/hkgrotesk-light.woff") format("woff"); }
+
+@font-face {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/leaguespartan-bold.woff") format("woff"); }
+
+.badge {
+  position: relative; }
+  .badge::after {
+    position: absolute;
+    content: ""; }
+  .badge--kikstarter::after {
+    width: 122px;
+    height: 125px;
+    top: 30px;
+    right: 30px;
+    background: url("../../img/kickstarter-badge.png") center no-repeat; }
+
+.btn {
+  display: block;
+  padding: 20px 18px 16px;
+  width: 100%;
+  font-family: "League Spartan", verdana, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 3px #82c9d8;
+  outline: none; }
+  .btn:hover, .btn:focus {
+    cursor: pointer;
+    color: #30cf75;
+    border-color: #30cf75; }
+  .btn--product-card-xxl {
+    width: 160px;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    border-color: #eec9a2; }
+  .btn--product-card-xl, .btn--product-card-l {
+    padding: 14px 12px 10px;
+    width: 120px;
+    border-color: #eec9a2; }
+
+.catalog {
+  margin-bottom: 155px; }
+
+.catalog__line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px; }
+  .catalog__line:last-child {
+    margin-bottom: 0; }
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 0 100px; }
+
+.logo img {
+  display: block;
+  width: 294px;
+  height: 72px; }
+
+.page {
+  min-width: 1360px;
+  font-family: "HKGrotesk", verdana, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  color: #92a1a9;
+  background-color: #272f45; }
+
+.page-footer {
+  margin-bottom: 70px; }
+
+.page-footer__nav {
+  margin-bottom: 20px; }
+
+.page-footer__copyright {
+  text-align: center; }
+
+.page-header {
+  margin-top: 65px;
+  margin-bottom: 55px; }
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ffffff; }
+  .product-card--xxl {
+    padding: 110px 60px 120px;
+    width: 1160px;
+    height: 690px; }
+  .product-card--xl {
+    padding: 65px 30px 225px;
+    width: 560px;
+    height: 520px; }
+  .product-card--l {
+    padding: 70px 30px 230px;
+    width: 360px;
+    height: 440px;
+    align-items: center; }
+  .product-card--xl-reverse {
+    text-align: right;
+    align-items: flex-end; }
+  .product-card--l-reverse {
+    padding: 265px 30px 35px; }
+  .product-card--gina {
+    background-color: #b5c2c8; }
+  .product-card--beoplay-a1 {
+    background-color: #5eb7a5; }
+  .product-card--leica-mp {
+    background-color: #5eb7a5; }
+    .product-card--leica-mp img {
+      width: 422px;
+      height: 280px;
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 0; }
+  .product-card--leica-mp {
+    background-color: #7778c6; }
+  .product-card--molekule {
+    background-color: #e97864; }
+    .product-card--molekule img {
+      height: 186px;
+      top: auto;
+      bottom: 0; }
+  .product-card--p9-signature {
+    background-color: #557581; }
+    .product-card--p9-signature img {
+      height: 280px; }
+  .product-card--dr-ii {
+    background-color: #82c9d8; }
+    .product-card--dr-ii img {
+      width: 303px;
+      height: 195px;
+      top: auto;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%); }
+
+.product-card__title {
+  margin: 0;
+  z-index: 1;
+  font-family: "League Spartan", verdana, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .product-card__title--xxl {
+    font-size: 80px;
+    margin-bottom: 50px; }
+  .product-card__title--xl {
+    font-size: 48px;
+    margin-bottom: 30px; }
+  .product-card__title--l {
+    font-size: 36px;
+    margin-bottom: 0; }
+
+.product-card__image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .product-card__image--xxl {
+    width: 1160px;
+    height: 690px; }
+  .product-card__image--xl {
+    width: 560px;
+    height: 440px; }
+  .product-card__image--xl {
+    width: 360px;
+    height: 520px; }
+
+.product-card__description {
+  margin: 0;
+  z-index: 1; }
+  .product-card__description--xxl {
+    width: 365px;
+    font-size: 32px;
+    line-height: 36px; }
+  .product-card__description--xl {
+    width: 445px;
+    font-size: 24px;
+    line-height: 26px; }
+  .product-card__description--l {
+    order: -1;
+    margin-bottom: 18px;
+    font-size: 16px; }
+
+.product-card__btn {
+  margin-top: auto;
+  z-index: 1; }
+
+.search-form {
+  position: relative; }
+  .search-form label {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    top: 16px;
+    left: 0;
+    background: url("../img/search.svg") center no-repeat; }
+  .search-form input {
+    display: block;
+    width: 175px;
+    padding: 12px;
+    padding-left: 32px;
+    padding-bottom: 8px;
+    font: inherit;
+    font-size: 24px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #63757e;
+    outline: none; }
+    .search-form input:hover, .search-form input:focus {
+      border-color: #30cf75; }
+  .search-form input::placeholder {
+    font: inherit;
+    font-size: 24px;
+    color: inherit; }
+
+.site-menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.site-menu__link {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #92a1a9;
+  outline: none; }
+  .site-menu__item:not(:first-of-type) .site-menu__link::before {
+    position: absolute;
+    content: "•";
+    left: 0;
+    transform: translateX(-50%);
+    color: #92a1a9; }
+  .site-menu__link:hover, .site-menu__link:focus {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #30cf75; }
+
+.subscription {
+  margin-bottom: 95px; }
+
+.subscription__offer {
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: center; }
+
+.subscription__responsible {
+  margin: 0 auto 50px;
+  width: 840px;
+  line-height: 20px;
+  text-align: center; }
+
+.subscription-form {
+  width: 360px;
+  margin: 0 auto; }
+  .subscription-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    font: inherit;
+    font-size: 24px;
+    color: inherit;
+    text-align: center;
+    background-color: transparent;
+    border: solid 3px #63757e;
+    outline: none; }
+    .subscription-form input:hover, .subscription-form input:focus {
+      border-color: #30cf75; }
+  .subscription-form input::placeholder {
+    font: inherit;
+    font-size: 24px;
+    color: inherit; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
