@@ -30,6 +30,12 @@
     text-align: center;
     background-color: transparent;
     border: solid 3px $site;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      border-color: $btn--hover;
+    }
   }
 
   input::placeholder {

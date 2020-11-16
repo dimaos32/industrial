@@ -5,6 +5,8 @@ $site: #63757e;
 $site-light: #92a1a9;
 $site-bright: #82c9d8;
 $site-bright-alt: #eec9a2;
+$site-bright-active: #30cf75;
+
 
 
 $gina--bg: #b5c2c8;
@@ -19,6 +21,7 @@ $hkgrotesk: "HKGrotesk", verdana, sans-serif;
 $leaguespartan: "League Spartan", verdana, sans-serif;
 
 
+$btn--hover: $site-bright-active;
 $btn--border: $site-bright;
 $btn--border-alt: $site-bright-alt;
 

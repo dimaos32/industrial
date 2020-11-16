@@ -23,6 +23,12 @@
     background-color: transparent;
     border: none;
     border-bottom: 3px solid $site;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      border-color: $btn--hover;
+    }
   }
 
   input::placeholder {

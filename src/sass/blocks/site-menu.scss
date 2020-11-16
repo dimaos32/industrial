@@ -13,11 +13,20 @@
   padding: 10px 20px;
   font-size: 24px;
   color: $page--txt;
+  outline: none;
 
   .site-menu__item:not(:first-of-type) &::before {
     position: absolute;
     content: "•";
     left: 0;
     transform: translateX(-50%);
+    color: $page--txt;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    text-decoration: underline;
+    color: $btn--hover;
   }
 }

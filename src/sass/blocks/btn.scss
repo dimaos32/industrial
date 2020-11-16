@@ -13,6 +13,14 @@
   color: $page--txt-alt;
   background-color: transparent;
   border: solid 3px $btn--border;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    color: $btn--hover;
+    border-color: $btn--hover;
+  }
 
   &--product-card-xxl {
     width: 160px;
