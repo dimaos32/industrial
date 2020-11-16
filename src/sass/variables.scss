@@ -1,9 +1,8 @@
-$grey: #92a1a9;
-
 $white: #ffffff;
 
 $site-dark: #272f45;
 $site: #63757e;
+$site-light: #92a1a9;
 $site-bright: #82c9d8;
 $site-bright-alt: #eec9a2;
 
@@ -23,7 +22,7 @@ $leaguespartan: "League Spartan", verdana, sans-serif;
 $btn--border: $site-bright;
 $btn--border-alt: $site-bright-alt;
 
-$page--txt: $grey;
+$page--txt: $site-light;
 $page--txt-alt: $white;
 $page--bg: $site-dark;
 
