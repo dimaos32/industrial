@@ -39,7 +39,7 @@ img {
     height: 125px;
     top: 30px;
     right: 30px;
-    background: url("../../img/kickstarter-badge.png") center no-repeat; }
+    background: url("../img/kickstarter-badge.png") center no-repeat; }
 
 .btn {
   display: block;
@@ -148,7 +148,7 @@ img {
   .product-card--beoplay-a1 {
     background-color: #5eb7a5; }
   .product-card--leica-mp {
-    background-color: #5eb7a5; }
+    background-color: #7778c6; }
     .product-card--leica-mp img {
       width: 422px;
       height: 280px;
@@ -156,8 +156,6 @@ img {
       left: auto;
       right: 0;
       bottom: 0; }
-  .product-card--leica-mp {
-    background-color: #7778c6; }
   .product-card--molekule {
     background-color: #e97864; }
     .product-card--molekule img {
